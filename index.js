@@ -9,10 +9,15 @@ for(let i=0;i<256;i++) {
     workspace.appendChild(square);
 }
 
-let pixels = document.querySelectorAll(".pixel")
+//query selecot that getsd all the pixels
+const pixels = document.querySelectorAll(".pixel")
 
-pixels.addEventListener("mouseover", function changeColor() {
-    console.log('Hi!')
+//iterate the pixels nodelist and apply an event listener to every node
+pixels.forEach((item) => {
+    item.addEventListener("mouseover", function() {
+        item.style.background = "black"
+    })
 })
+
 
 
