@@ -1,8 +1,12 @@
 div.pixel {
-  height: 50px;
-  width: 50px;
+  width: 40px;
+  height: 40px;
   border: 2px solid black;
-  margin: -2px;
+}
+button {
+  height: 30px;
+  width: 80px;
+  margin: 30px;
 }
 
 .workspace {
