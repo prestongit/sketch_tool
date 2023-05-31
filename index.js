@@ -24,10 +24,10 @@ const pixels = document.querySelectorAll(".pixel")
 //iterate the pixels nodelist and apply an event listener to every node
 
 pixels.forEach((item) => {
-    item.addEventListener("mouseover", function() {
-        if(mouseIsDown) {
+    item.addEventListener("mouseenter", function() {
+        //if(mouseIsDown) {
         item.style.background = "black"
-        }
+        //}
     })
 })
 
